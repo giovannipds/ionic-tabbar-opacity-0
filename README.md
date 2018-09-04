@@ -10,4 +10,6 @@ To get it working on this `master` branch, just uncomment this line on `home.ts`
 
 **Explanation:** When there's no correct variable attributed to `<ion-tab>` `[root]` attribute, `.tabbar` gets `opacity: 0`. PS.: that's not exactly a bug.
 
-<img alt="Screenshot" height="628" src="./screenshot.png" style="display: block; margin-right: auto; margin-left: auto;" width="400">
+<p align="center">
+  <img align="center" alt="Screenshot" height="628" src="./screenshot.png" width="400">
+</p>

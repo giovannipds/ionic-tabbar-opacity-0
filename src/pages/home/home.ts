@@ -7,7 +7,7 @@ import { NavController } from 'ionic-angular';
   templateUrl: 'home.html'
 })
 export class HomePage {
-  tab1 = Tab1Page // if this is not specified, it will put opacity 0 on .tabbar
+  // tab1 = Tab1Page // UNCOMMENT THIS LINE TO GET IT WORKING
 
   constructor(public navCtrl: NavController) {
 

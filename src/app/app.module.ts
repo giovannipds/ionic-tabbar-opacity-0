@@ -1,4 +1,5 @@
 import { Tab1Page } from './../pages/tab1/tab1';
+import { Tab2Page } from './../pages/tab2/tab2';
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
@@ -12,7 +13,8 @@ import { HomePage } from '../pages/home/home';
   declarations: [
     MyApp,
     HomePage,
-    Tab1Page
+    Tab1Page,
+    Tab2Page
   ],
   imports: [
     BrowserModule,
@@ -22,7 +24,8 @@ import { HomePage } from '../pages/home/home';
   entryComponents: [
     MyApp,
     HomePage,
-    Tab1Page
+    Tab1Page,
+    Tab2Page
   ],
   providers: [
     StatusBar,
